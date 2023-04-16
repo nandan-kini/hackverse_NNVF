@@ -1,0 +1,18 @@
+# node
+node_modules/
+circuits/powersOfTau28_hez_final_22.ptau
+# hardhat
+cache 
+
+.env
+# Ignore the output from circom because we want people to build these
+# Users can remove these lines and commit the artifacts
+/hardhat/circuits/*.r1cs
+/hardhat/circuits/model/build/*
+/hardhat/circuits/encrypt/build/*
+/hardhat/circuits/*.vkey.json
+/hardhat/circuits/*.wasm
+/hardhat/circuits/*.zkey
+/hardhat/contracts/*.sol
+frontend/public/circuit_final.zkey
+frontend/public/circuit.wasm
